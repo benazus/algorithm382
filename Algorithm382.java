@@ -33,8 +33,6 @@ public class Algorithm382 {
         while(rotate(rd) == true) {
             lastMElements.set(rd.z, objects.get(rd.x));
             System.out.println(lastMElements.toString());
-
-            //System.out.println("rd.x:" + rd.x + " --- rd.y: " + rd.y + " --- rd.z: " + rd.z + "\nrd.data: " + rd.data.toString());
         }
     }
 
@@ -55,7 +53,7 @@ public class Algorithm382 {
     }
 
     public static boolean rotate(RotateData rd) {
-        int i,  j, k;
+        int i, j, k;
 
         for(j = 1; rd.data.get(j) <= 0; j++);
 
