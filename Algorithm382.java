@@ -11,7 +11,10 @@ public class Algorithm382 {
         ArrayList<Integer> objects = new ArrayList<Integer>();
         ArrayList<Integer> lastMElements = new ArrayList<Integer>();
         ArrayList<Integer> array = new ArrayList<Integer>();
-
+        
+        // ( N )
+        // ( M )
+        // Combination of M items out of N
         final int N = 20;
         final int M = 6;
 
