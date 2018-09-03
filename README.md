@@ -1,6 +1,6 @@
 # algorithm382
 
-Algorithm 382: combinations of M out of N objects
+Algorithm 382: combinations of M units out of N objects
 
 References
 
